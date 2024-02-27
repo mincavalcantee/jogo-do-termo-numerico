@@ -1,0 +1,109 @@
+body {
+    font-family: 'Itim';
+    background-color: #83C3FF;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .boasVindas {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  
+  .enunciado {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .container_menor {
+    background-color: #112737;
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  
+  .container_botoesInput {
+    display: flex;
+    height: 105px;
+    width: 450;
+  }
+  
+  .container_primeiroInput {
+    width: 400px;
+    height: 100px;
+    margin-left: 150px;
+    margin-right: 50px;
+    display: flex;
+  }
+  
+  .primeiroInput {
+    width: 100%;
+    height: 100%;
+    font-family: 'Itim';
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .container_botaoChute {
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+    background-color: red;
+    text-align: center;
+  }
+  
+  .botaoChute {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    font-family: 'Itim';
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container_botaoAdicionar {
+    display: flex;
+    height: 105px;
+    width: 450;
+    margin-top: 15px;
+  }
+  
+  .container_adicionar {
+    width: 400px;
+    height: 105px;
+    margin-left: 150px;
+  }
+  
+  .botao_adicionar {
+    width: 100%;
+    height: 100%;
+    font-family: 'Itim';
+    font-size: 40px;
+    text-align: center;
+    background-color: #83C3FF;
+  }
+  
+  .container_novoJogo {
+    margin-left: 150px;
+    width: 300px;
+    height: 100px;
+  }
+  
+  .botaoNovoJogo {
+    width: 100%;
+    height: 100%;
+    font-family: 'Itim';
+    font-size: 30px;
+  }
