@@ -26,30 +26,39 @@
             <input type="number" min="0" max="9" class="primeiroInput">
           </div>
 
+          <div class="container_adicionar">
+            <button onclick="adicionarNumero()" class="botao_adicionar" id="botaoAdicionar">Add</button>
+          </div>
+
           <div class="container_botaoChute">
             <button onclick="verificarChute()" class="botaoChute">Chutar</button>
           </div>
-        </div>
-
-        <div class="container_botaoAdicionar">
-
-          <div class="container_adicionar">
-            <button onclick="adicionarNumero()" class="botao_adicionar">Adicionar</button>
-          </div>
-
 
           <div class="container_novoJogo">
             <button onclick="novoJogo()" class="botaoNovoJogo">Novo Jogo</button>
           </div>
+        </div>
 
+        <div class="container_novaTentativa">
+          <button onclick="novaTentativa()" class="botaoNovaTentativa">Nova Tentativa</button>
         </div>
 
         <div class="container_resposta">
           <h3 class="resposta" id="resposta"></h3>
         </div>
 
+        <div class="container_numerosEscolhidos">
+          <h4 class="numerosEscolhidos"></h4>
+        </div>
+
+        <div class="container_tentativas">
+          <h5 class="tentativas"></h5>
+        </div>
+
       </div>
-    </main>
+
+  </div>
+  </main>
   </div>
 
   <footer class="rodape">
