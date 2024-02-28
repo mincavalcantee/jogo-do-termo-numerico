@@ -144,9 +144,10 @@ h1 {
 }
 
 .container_novaTentativa {
-  height: 30px;
-  width: 230px;
-  margin-bottom: 5px;
+  height: 40px;
+  width: 460px;
+  margin-bottom: 15px;
+  margin-left: 600px;
 }
 
 .botaoNovaTentativa {
@@ -154,7 +155,7 @@ h1 {
   height: 100%;
   margin-left: 35px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   border-radius: 10px;
   font-family: 'Itim';
   font-size: 18px;
