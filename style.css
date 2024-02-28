@@ -117,3 +117,10 @@ h1 {
   color: white;
   font-size: 60px;
 }
+
+.rodape {
+  font-family: 'Itim';
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
