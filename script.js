@@ -74,7 +74,7 @@ function novoJogo() {
   exibirTexto('h5', '');
   numerosCertos = 0;
   numerosErrados = 0;
-  tentativas = 0;
+  tentativas = 1;
 }
 
 let tentativas = 1;
