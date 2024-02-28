@@ -19,16 +19,16 @@
       </div>
 
       <div class="container_menor">
-        <p class="enunciado">Digite uma sequência 4 de números, sendo todos diferentes entre si</p>
+        <p class="enunciado">Digite, UM POR VEZ, uma sequência 4 de números, sendo todos diferentes entre si</p>
 
         <div class="container_botoesInput">
           <div class="container_primeiroInput">
             <input type="number" min="0" max="9" class="primeiroInput">
           </div>
 
-            <div class="container_botaoChute">
-              <button onclick="" class="botaoChute">Chutar</button>
-            </div>
+          <div class="container_botaoChute">
+            <button onclick="verificarChute()" class="botaoChute">Chutar</button>
+          </div>
         </div>
 
         <div class="container_botaoAdicionar">
@@ -39,12 +39,14 @@
 
 
           <div class="container_novoJogo">
-            <button onclick="" class="botaoNovoJogo">Novo Jogo</button>
+            <button onclick="novoJogo()" class="botaoNovoJogo">Novo Jogo</button>
           </div>
 
         </div>
 
-
+        <div class="container_resposta">
+          <h3 class="resposta" id="resposta"></h3>
+        </div>
 
       </div>
     </main>
