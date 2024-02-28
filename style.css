@@ -5,14 +5,14 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .boasVindas {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 0px;
 }
 
@@ -27,7 +27,7 @@ h1 {
 .container_menor {
   background-color: #112737;
   width: 1200px;
-  height: 600px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
@@ -37,15 +37,14 @@ h1 {
   display: flex;
   flex-direction: row;
   height: 105px;
-  width: 450;
+  width: 1080;
 }
 
 .container_primeiroInput {
-  width: 400px;
+  width: 230px;
   height: 100px;
-  margin-left: 150px;
-  margin-right: 50px;
-  display: flex;
+  margin-left: 30px;
+  margin-right: 0px;
 }
 
 .primeiroInput {
@@ -54,36 +53,30 @@ h1 {
   font-family: 'Itim';
   font-size: 50px;
   text-align: center;
+  border-radius: 20px;
 }
 
 .container_botaoChute {
   width: 300px;
-  height: 100px;
-  margin-left: 100px;
-  background-color: red;
+  height: 105px;
+  margin-left: 180px;
   text-align: center;
 }
 
 .botaoChute {
-  width: 300px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   font-family: 'Itim';
   font-size: 30px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.container_botaoAdicionar {
-  display: flex;
-  height: 105px;
-  width: 450;
-  margin-top: 15px;
+  border-radius: 20px;
 }
 
 .container_adicionar {
-  width: 400px;
-  height: 105px;
-  margin-left: 150px;
+  width: 110px;
+  height: 108px;
+  margin-left: 10px;
 }
 
 .botao_adicionar {
@@ -93,12 +86,13 @@ h1 {
   font-size: 40px;
   text-align: center;
   background-color: #83C3FF;
+  border-radius: 20px;
 }
 
 .container_novoJogo {
-  margin-left: 150px;
+  margin-left: 10px;
   width: 300px;
-  height: 100px;
+  height: 105px;
 }
 
 .botaoNovoJogo {
@@ -106,11 +100,13 @@ h1 {
   height: 100%;
   font-family: 'Itim';
   font-size: 30px;
+  border-radius: 20px;
 }
 
 .container_resposta {
   text-align: center;
-  margin-top: 50px;
+  margin-top: -15px;
+  margin-bottom: 5px;
 }
 
 .resposta {
@@ -123,4 +119,59 @@ h1 {
   font-size: 15px;
   font-style: italic;
   text-align: center;
+}
+
+.container_numerosEscolhidos {
+  margin-top: -50px;
+  text-align: center;
+}
+
+.numerosEscolhidos {
+  color: white;
+  font-size: 30px;
+}
+
+.botao_adicionar:hover {
+  background-color: #ecefc9;
+}
+
+.botaoChute:hover {
+  background-color: #83C3FF;
+}
+
+.botaoNovoJogo:hover {
+  background-color: #83C3FF;
+}
+
+.container_novaTentativa {
+  height: 30px;
+  width: 230px;
+  margin-bottom: 5px;
+}
+
+.botaoNovaTentativa {
+  width: 100%;
+  height: 100%;
+  margin-left: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: 'Itim';
+  font-size: 18px;
+  text-align: center;
+}
+
+.botaoNovaTentativa:hover {
+  background-color: #83C3FF;
+}
+
+.container_tentativas {
+  margin-top: -20px;
+  text-align: Center;
+}
+
+.tentativas {
+  font-family: 'Itim';
+  font-size: 25px;
+  color: white;
 }
